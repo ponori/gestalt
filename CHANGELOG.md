@@ -1,3 +1,45 @@
+## 111.5.13 (May 19, 2023)
+
+### Patch
+
+- Docs: fix bug in navigation ([#2951](https://github.com/pinterest/gestalt/pull/2951)) - [Preview link](https://deploy-preview-2951--gestalt.netlify.app)
+
+## 111.5.12 (May 17, 2023)
+
+### Patch
+
+- Internal: upgrade to Flow 0.206.0 ([#2947](https://github.com/pinterest/gestalt/pull/2947)) - [Preview link](https://deploy-preview-2947--gestalt.netlify.app)
+
+## 111.5.11 (May 16, 2023)
+
+### Patch
+
+- Internal: upgrade to Flow 0.204.1 ([#2946](https://github.com/pinterest/gestalt/pull/2946)) - [Preview link](https://deploy-preview-2946--gestalt.netlify.app)
+
+## 111.5.10 (May 16, 2023)
+
+### Patch
+
+- Internal: upgrade to Flow 0.203.1 ([#2945](https://github.com/pinterest/gestalt/pull/2945)) - [Preview link](https://deploy-preview-2945--gestalt.netlify.app)
+
+## 111.5.9 (May 16, 2023)
+
+### Patch
+
+- Internal: fixes to pass ` flow codemod annotate-implicit-instantiations --write --include-widened .` & `flow codemod annotate-implicit-instantiations --write .` ([#2942](https://github.com/pinterest/gestalt/pull/2942)) - [Preview link](https://deploy-preview-2942--gestalt.netlify.app)
+
+## 111.5.8 (May 16, 2023)
+
+### Patch
+
+- Internal: typed useRefs prepping for 0.203.1 ([#2944](https://github.com/pinterest/gestalt/pull/2944)) - [Preview link](https://deploy-preview-2944--gestalt.netlify.app)
+
+## 111.5.7 (May 15, 2023)
+
+### Patch
+
+- Docs: Figma plugins links update ([#2943](https://github.com/pinterest/gestalt/pull/2943)) - [Preview link](https://deploy-preview-2943--gestalt.netlify.app)
+
 ## 111.5.6 (May 15, 2023)
 
 ### Patch
