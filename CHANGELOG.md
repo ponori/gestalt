@@ -1,3 +1,51 @@
+## 112.5.1 (Jun 1, 2023)
+
+### Patch
+
+- Docs: Fix links on Android docs pages ([#2973](https://github.com/pinterest/gestalt/pull/2973)) - [Preview link](https://deploy-preview-2973--gestalt.netlify.app)
+
+## 112.5.0 (Jun 1, 2023)
+
+### Minor
+
+- Docs: Update Designers page ([#2971](https://github.com/pinterest/gestalt/pull/2971)) - [Preview link](https://deploy-preview-2971--gestalt.netlify.app)
+
+## 112.4.0 (Jun 1, 2023)
+
+### Minor
+
+- GlobalEventsHandlerProvider: new provider to share global event handlers to consuming components ([#2959](https://github.com/pinterest/gestalt/pull/2959)) - [Preview link](https://deploy-preview-2959--gestalt.netlify.app)
+
+## 112.3.9 (Jun 1, 2023)
+
+### Patch
+
+- Table: Convert examples to use Sandpack ([#2969](https://github.com/pinterest/gestalt/pull/2969)) - [Preview link](https://deploy-preview-2969--gestalt.netlify.app)
+
+## 112.3.8 (Jun 1, 2023)
+
+### Patch
+
+- Docs: Added Android specs for Avatar, Button, Checkbox, IconButton, Searchfield, Sheet, Switch, Tabs, Textfield ([#2972](https://github.com/pinterest/gestalt/pull/2972)) - [Preview link](https://deploy-preview-2972--gestalt.netlify.app)
+
+## 112.3.7 (May 30, 2023)
+
+### Patch
+
+- TileData: Add Typescript Types ([#2966](https://github.com/pinterest/gestalt/pull/2966)) - [Preview link](https://deploy-preview-2966--gestalt.netlify.app)
+
+## 112.3.6 (May 30, 2023)
+
+### Patch
+
+- SlimBanner: Convert examples to use Sandpack ([#2968](https://github.com/pinterest/gestalt/pull/2968)) - [Preview link](https://deploy-preview-2968--gestalt.netlify.app)
+
+## 112.3.5 (May 26, 2023)
+
+### Patch
+
+- Docs: Weekly update and roadmap updates ([#2967](https://github.com/pinterest/gestalt/pull/2967)) - [Preview link](https://deploy-preview-2967--gestalt.netlify.app)
+
 ## 112.3.4 (May 26, 2023)
 
 ### Patch
