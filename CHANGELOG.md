@@ -1,3 +1,21 @@
+## 112.5.4 (Jun 2, 2023)
+
+### Patch
+
+- Docs: Revised About Us page ([#2977](https://github.com/pinterest/gestalt/pull/2977)) - [Preview link](https://deploy-preview-2977--gestalt.netlify.app)
+
+## 112.5.3 (Jun 2, 2023)
+
+### Patch
+
+- Docs: Added data visualization guidelines ([#2980](https://github.com/pinterest/gestalt/pull/2980)) - [Preview link](https://deploy-preview-2980--gestalt.netlify.app)
+
+## 112.5.2 (Jun 2, 2023)
+
+### Patch
+
+- Checkbox: Update InternalCheckbox.css ([#2978](https://github.com/pinterest/gestalt/pull/2978)) - [Preview link](https://deploy-preview-2978--gestalt.netlify.app)
+
 ## 112.5.1 (Jun 1, 2023)
 
 ### Patch

@@ -52,6 +52,7 @@ const siteIndex: $ReadOnlyArray<siteIndexType> = [
       'Checkbox',
       'Icon',
       'IconButton',
+      'IconButtonFloating',
       'Sheet',
       'Switch',
       'Tabs',
@@ -199,7 +200,16 @@ const siteIndex: $ReadOnlyArray<siteIndexType> = [
       },
       {
         sectionName: 'Data visualization',
-        pages: ['Palette', 'Usage'],
+        pages: [
+          'Overview',
+          'Charts and graphs',
+          'Micro visualizations',
+          'Available components',
+          {
+            sectionName: 'Color',
+            pages: ['Palette', 'Usage'],
+          },
+        ],
       },
       'Design tokens',
       'Elevation',
