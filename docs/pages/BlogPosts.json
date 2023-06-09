@@ -3,6 +3,28 @@
     "year": "2023",
     "digests": [
       {
+        "week": "June 9, 2023",
+        "summary": "",
+        "posts": [
+          {
+            "title": "Updated ActionBar Figma components",
+            "audience": ["Design"],
+            "imageColor": "blue-skycicle-100",
+            "imageSrc": "",
+            "imageAltText": "",
+            "content": ""
+          },
+          {
+            "title": "Figma quality of life improvements",
+            "audience": ["Design"],
+            "imageColor": "blue-skycicle-100",
+            "imageSrc": "",
+            "imageAltText": "",
+            "content": ""
+          }
+        ]
+      },
+      {
         "week": "June 2, 2023",
         "summary": "Major data visualization updates, significant Android docs improvements and advertising safe zone guidelines.",
         "posts": [
