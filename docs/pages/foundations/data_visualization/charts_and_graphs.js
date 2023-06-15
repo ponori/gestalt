@@ -1,6 +1,6 @@
 // @flow strict
 import { type Node } from 'react';
-import { Image, Box, Flex, Text, SlimBanner, Heading } from 'gestalt';
+import { Box, Flex, Heading, Image, SlimBanner, Text } from 'gestalt';
 import MainSection from '../../../docs-components/MainSection.js';
 import Markdown from '../../../docs-components/Markdown.js';
 import Page from '../../../docs-components/Page.js';
@@ -535,7 +535,7 @@ export default function ChartsandGraphsPage(): Node {
             marginTop={2}
           >
             <Image
-              alt="A spacing spec that shows how to use 24px spacing between Headings, DataPoints and a line chart, with 16px between a line chart and its legend."
+              alt="A spacing spec that shows how to use 24px spacing between Headings, Datapoints and a line chart, with 16px between a line chart and its legend."
               naturalHeight={1494}
               naturalWidth={3024}
               src="https://i.pinimg.com/originals/49/89/b4/4989b46ec8b659dcb3eab22034796d0e.png"
