@@ -1,3 +1,75 @@
+## 115.2.1 (Jun 22, 2023)
+
+### Patch
+
+- Internal: Bump semver from 7.3.4 to 7.5.2 ([#3027](https://github.com/pinterest/gestalt/pull/3027)) - [Preview link](https://deploy-preview-3027--gestalt.netlify.app?devexample=true)
+
+## 115.2.0 (Jun 21, 2023)
+
+### Minor
+
+- TagData: Fit and Finish on TagData ([#3020](https://github.com/pinterest/gestalt/pull/3020)) - [Preview link](https://deploy-preview-3020--gestalt.netlify.app?devexample=true)
+
+## 115.1.5 (Jun 21, 2023)
+
+### Patch
+
+- Docs: adds a new metric statsboards to web/tooling page ([#3021](https://github.com/pinterest/gestalt/pull/3021)) - [Preview link](https://deploy-preview-3021--gestalt.netlify.app?devexample=true)
+
+## 115.1.4 (Jun 21, 2023)
+
+### Patch
+
+- Docs: add link to UX Writing Cheat Sheet ([#3025](https://github.com/pinterest/gestalt/pull/3025)) - [Preview link](https://deploy-preview-3025--gestalt.netlify.app?devexample=true)
+
+## 115.1.3 (Jun 21, 2023)
+
+### Patch
+
+- Internal: lint android/iconbutton.md ([#3024](https://github.com/pinterest/gestalt/pull/3024)) - [Preview link](https://deploy-preview-3024--gestalt.netlify.app?devexample=true)
+
+## 115.1.2 (Jun 20, 2023)
+
+### Patch
+
+- Internal: update package.json keywords ([#3023](https://github.com/pinterest/gestalt/pull/3023)) - [Preview link](https://deploy-preview-3023--gestalt.netlify.app?devexample=true)
+
+## 115.1.1 (Jun 20, 2023)
+
+### Patch
+
+- Internal: lint contributions.md ([#3022](https://github.com/pinterest/gestalt/pull/3022)) - [Preview link](https://deploy-preview-3022--gestalt.netlify.app?devexample=true)
+
+## 115.1.0 (Jun 20, 2023)
+
+### Minor
+
+- TagData: Add new Component ([#2963](https://github.com/pinterest/gestalt/pull/2963)) - [Preview link](https://deploy-preview-2963--gestalt.netlify.app?devexample=true)
+
+## 115.0.4 (Jun 16, 2023)
+
+### Patch
+
+- Docs: Data visualization videos ([#3018](https://github.com/pinterest/gestalt/pull/3018)) - [Preview link](https://deploy-preview-3018--gestalt.netlify.app?devexample=true)
+
+## 115.0.3 (Jun 16, 2023)
+
+### Patch
+
+- Internal: Cleaner Logging for DocGen Errors ([#2974](https://github.com/pinterest/gestalt/pull/2974)) - [Preview link](https://deploy-preview-2974--gestalt.netlify.app?devexample=true)
+
+## 115.0.2 (Jun 16, 2023)
+
+### Patch
+
+- Docs: Card component documentation for iOS ([#2996](https://github.com/pinterest/gestalt/pull/2996)) - [Preview link](https://deploy-preview-2996--gestalt.netlify.app?devexample=true)
+
+## 115.0.1 (Jun 16, 2023)
+
+### Patch
+
+- Docs: 6-9 and 6-16 updates ([#3017](https://github.com/pinterest/gestalt/pull/3017)) - [Preview link](https://deploy-preview-3017--gestalt.netlify.app?devexample=true)
+
 ## 115.0.0 (Jun 15, 2023)
 
 ### Major
