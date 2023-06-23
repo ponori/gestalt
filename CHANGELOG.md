@@ -1,3 +1,39 @@
+## 116.1.1 (Jun 23, 2023)
+
+### Patch
+
+- Docs: Add Value to Default Label Provider Docs ([#3026](https://github.com/pinterest/gestalt/pull/3026)) - [Preview link](https://deploy-preview-3026--gestalt.netlify.app?devexample=true)
+
+## 116.1.0 (Jun 23, 2023)
+
+### Minor
+
+- Masonry: add experimental support for two-column items ([#2955](https://github.com/pinterest/gestalt/pull/2955)) - [Preview link](https://deploy-preview-2955--gestalt.netlify.app?devexample=true)
+
+## 116.0.2 (Jun 23, 2023)
+
+### Patch
+
+- Docs: create new COMPONENT_DATA data structure type for scalability ([#3005](https://github.com/pinterest/gestalt/pull/3005)) - [Preview link](https://deploy-preview-3005--gestalt.netlify.app?devexample=true)
+
+## 116.0.1 (Jun 23, 2023)
+
+### Patch
+
+- Docs: 6/23/2023 weekly update ([#3035](https://github.com/pinterest/gestalt/pull/3035)) - [Preview link](https://deploy-preview-3035--gestalt.netlify.app?devexample=true)
+
+## 116.0.0 (Jun 23, 2023)
+
+### Major
+
+- OnLinkNavigationProvider: deprecation of component util ([#3029](https://github.com/pinterest/gestalt/pull/3029)) - [Preview link](https://deploy-preview-3029--gestalt.netlify.app?devexample=true)
+
+## 115.2.3 (Jun 23, 2023)
+
+### Patch
+
+- Docs: fix `allowfullscreen` bug ([#3034](https://github.com/pinterest/gestalt/pull/3034)) - [Preview link](https://deploy-preview-3034--gestalt.netlify.app?devexample=true)
+
 ## 115.2.2 (Jun 23, 2023)
 
 ### Patch
