@@ -1,3 +1,63 @@
+## 117.1.0 (Jun 30, 2023)
+
+### Minor
+
+- Callout: Support Text Type in Callout ([#3044](https://github.com/pinterest/gestalt/pull/3044)) - [Preview link](https://deploy-preview-3044--gestalt.netlify.app?devexample=true)
+
+## 117.0.0 (Jun 30, 2023)
+
+### Major
+
+- Tokens: Update $selected-strong and $selected-weak values ([#3008](https://github.com/pinterest/gestalt/pull/3008)) - [Preview link](https://deploy-preview-3008--gestalt.netlify.app?devexample=true)
+
+## 116.1.9 (Jun 29, 2023)
+
+### Patch
+
+- Docs: update status for several components ([#3047](https://github.com/pinterest/gestalt/pull/3047)) - [Preview link](https://deploy-preview-3047--gestalt.netlify.app?devexample=true)
+
+## 116.1.8 (Jun 28, 2023)
+
+### Patch
+
+- Internal: implement new component data type (w/helpers) ([#3045](https://github.com/pinterest/gestalt/pull/3045)) - [Preview link](https://deploy-preview-3045--gestalt.netlify.app?devexample=true)
+
+## 116.1.7 (Jun 27, 2023)
+
+### Patch
+
+- Docs: Fix Android Figma links ([#3043](https://github.com/pinterest/gestalt/pull/3043)) - [Preview link](https://deploy-preview-3043--gestalt.netlify.app?devexample=true)
+
+## 116.1.6 (Jun 27, 2023)
+
+### Patch
+
+- Internal: simplify docgen API ([#3041](https://github.com/pinterest/gestalt/pull/3041)) - [Preview link](https://deploy-preview-3041--gestalt.netlify.app?devexample=true)
+
+## 116.1.5 (Jun 26, 2023)
+
+### Patch
+
+- Avatar: the tiniest of docs nits ([#3040](https://github.com/pinterest/gestalt/pull/3040)) - [Preview link](https://deploy-preview-3040--gestalt.netlify.app?devexample=true)
+
+## 116.1.4 (Jun 26, 2023)
+
+### Patch
+
+- Masonry: fix blank screen bug ([#3039](https://github.com/pinterest/gestalt/pull/3039)) - [Preview link](https://deploy-preview-3039--gestalt.netlify.app?devexample=true)
+
+## 116.1.3 (Jun 26, 2023)
+
+### Patch
+
+- Internal: upgrade `semver` and add resolution ([#3036](https://github.com/pinterest/gestalt/pull/3036)) - [Preview link](https://deploy-preview-3036--gestalt.netlify.app?devexample=true)
+
+## 116.1.2 (Jun 23, 2023)
+
+### Patch
+
+- Docs: copyedit iOS Card pages ([#3032](https://github.com/pinterest/gestalt/pull/3032)) - [Preview link](https://deploy-preview-3032--gestalt.netlify.app?devexample=true)
+
 ## 116.1.1 (Jun 23, 2023)
 
 ### Patch

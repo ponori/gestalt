@@ -1,7 +1,7 @@
 // @flow strict
 import { type Node } from 'react';
 import AccessibilitySection from '../../docs-components/AccessibilitySection.js';
-import docgen, { type DocGen } from '../../docs-components/docgen.js';
+import docGen, { type DocGen } from '../../docs-components/docgen.js';
 import GeneratedPropTable from '../../docs-components/GeneratedPropTable.js';
 import MainSection from '../../docs-components/MainSection.js';
 import Page from '../../docs-components/Page.js';
@@ -19,6 +19,7 @@ import placeAtTop from '../../examples/callout/placeAtTop.js';
 import productMessages from '../../examples/callout/productMessages.js';
 import variantError from '../../examples/callout/variantError.js';
 import variantInfo from '../../examples/callout/variantInfo.js';
+import variantMessage from '../../examples/callout/variantMessage.js';
 import variantRecommendation from '../../examples/callout/variantRecommendation.js';
 import variantSuccess from '../../examples/callout/variantSuccess.js';
 import variantWarning from '../../examples/callout/variantWarning.js';
@@ -310,6 +311,24 @@ export default function DocsPage({ generatedDocGen }: {| generatedDocGen: DocGen
         </MainSection.Subsection>
       </MainSection>
 
+      <MainSection.Subsection
+        description={`
+The \`message\` prop accepts either a string or [Text](/web/text). Use a string for simple messages without any visual style. Callout will handle the message style and adherence to design guidelines. If a message with more complex style is required, such as bold text or inline links, use Text to wrap your message with any additional Text or Link usages contained within.
+`}
+        title="Message"
+      >
+        <MainSection.Card
+          cardSize="lg"
+          sandpackExample={
+            <SandpackExample
+              name="Callout 'message' prop example"
+              code={variantMessage}
+              layout="column"
+            />
+          }
+        />
+      </MainSection.Subsection>
+
       <QualityChecklist component={generatedDocGen?.displayName} />
 
       <MainSection name="Related">
@@ -336,6 +355,6 @@ export default function DocsPage({ generatedDocGen }: {| generatedDocGen: DocGen
 
 export async function getServerSideProps(): Promise<{| props: {| generatedDocGen: DocGen |} |}> {
   return {
-    props: { generatedDocGen: await docgen({ componentName: 'Callout' }) },
+    props: { generatedDocGen: await docGen('Callout') },
   };
 }
