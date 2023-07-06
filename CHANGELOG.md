@@ -1,3 +1,63 @@
+## 117.3.0 (Jul 6, 2023)
+
+### Minor
+
+- Box: add support for `<p>` in `as` ([#3059](https://github.com/pinterest/gestalt/pull/3059)) - [Preview link](https://deploy-preview-3059--gestalt.netlify.app?devexample=true)
+
+## 117.2.8 (Jul 5, 2023)
+
+### Patch
+
+- Docs: fix outdated link ([#3058](https://github.com/pinterest/gestalt/pull/3058)) - [Preview link](https://deploy-preview-3058--gestalt.netlify.app?devexample=true)
+
+## 117.2.7 (Jul 5, 2023)
+
+### Patch
+
+- Internal: fix PageHeaderQualitySummary bug ([#3057](https://github.com/pinterest/gestalt/pull/3057)) - [Preview link](https://deploy-preview-3057--gestalt.netlify.app?devexample=true)
+
+## 117.2.6 (Jul 3, 2023)
+
+### Patch
+
+- Docs: switch to use new component data structure ([#3054](https://github.com/pinterest/gestalt/pull/3054)) - [Preview link](https://deploy-preview-3054--gestalt.netlify.app?devexample=true)
+
+## 117.2.5 (Jul 3, 2023)
+
+### Patch
+
+- Internal: upgrade Flow to 0.210.2 ([#3055](https://github.com/pinterest/gestalt/pull/3055)) - [Preview link](https://deploy-preview-3055--gestalt.netlify.app?devexample=true)
+
+## 117.2.4 (Jul 3, 2023)
+
+### Patch
+
+- Internal: upgrade Flow to 0.209.0 ([#3053](https://github.com/pinterest/gestalt/pull/3053)) - [Preview link](https://deploy-preview-3053--gestalt.netlify.app?devexample=true)
+
+## 117.2.3 (Jul 3, 2023)
+
+### Patch
+
+- Internal: use const for docs copy max width ([#3051](https://github.com/pinterest/gestalt/pull/3051)) - [Preview link](https://deploy-preview-3051--gestalt.netlify.app?devexample=true)
+
+## 117.2.2 (Jun 30, 2023)
+
+### Patch
+
+- Masonry: remove unused `heightAdjustment` field ([#3049](https://github.com/pinterest/gestalt/pull/3049)) - [Preview link](https://deploy-preview-3049--gestalt.netlify.app?devexample=true)
+
+## 117.2.1 (Jun 30, 2023)
+
+### Patch
+
+- Docs: Weekly update ([#3048](https://github.com/pinterest/gestalt/pull/3048)) - [Preview link](https://deploy-preview-3048--gestalt.netlify.app?devexample=true)
+
+## 117.2.0 (Jun 30, 2023)
+
+### Minor
+
+- Masonry: add hook to log whitespace above 2-col modules ([#3046](https://github.com/pinterest/gestalt/pull/3046)) - [Preview link](https://deploy-preview-3046--gestalt.netlify.app?devexample=true)
+
 ## 117.1.0 (Jun 30, 2023)
 
 ### Minor
