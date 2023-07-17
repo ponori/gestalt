@@ -15,10 +15,6 @@ export type DesignOverview = {|
 
 export type StatusType = 'notAvailable' | 'partial' | 'planned' | 'ready';
 
-/**
- * All components should be in a single list. That list can be filtered by category/platform/etc where needed.
- */
-
 export type ComponentAccessibility = {|
   a11yComprehension?: StatusType,
   a11yNavigation?: StatusType,
@@ -58,11 +54,16 @@ export type ComponentStatus = {|
   accessible?: ComponentAccessibility,
   badge?: 'New' | 'Pilot' | 'Experimental',
   documentation: StatusType,
-  figmaOnly?: boolean,
   figmaStatus?: StatusType,
   mobileAdaptive?: StatusType,
   responsive?: StatusType,
   status: StatusType | 'deprecated',
+  knownIssues?: $ReadOnlyArray<{|
+    title: string,
+    description: string,
+    codesandboxUrl?: string,
+    internalDocUrl?: string,
+  |}>,
 |};
 
 export type PlatformData = {|

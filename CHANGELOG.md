@@ -1,3 +1,63 @@
+## 117.4.4 (Jul 14, 2023)
+
+### Patch
+
+- Docs: Header toggle button placement ([#3071](https://github.com/pinterest/gestalt/pull/3071)) - [Preview link](https://deploy-preview-3071--gestalt.netlify.app?devexample=true)
+
+## 117.4.3 (Jul 14, 2023)
+
+### Patch
+
+- Docs: Fix typo in overview ([#3074](https://github.com/pinterest/gestalt/pull/3074)) - [Preview link](https://deploy-preview-3074--gestalt.netlify.app?devexample=true)
+
+## 117.4.2 (Jul 14, 2023)
+
+### Patch
+
+- Docs: cleaned up Android sheet docs ([#3072](https://github.com/pinterest/gestalt/pull/3072)) - [Preview link](https://deploy-preview-3072--gestalt.netlify.app?devexample=true)
+
+## 117.4.1 (Jul 13, 2023)
+
+### Patch
+
+- Docs: Added Issues section for Text, Heading within Component quality checklist ([#3070](https://github.com/pinterest/gestalt/pull/3070)) - [Preview link](https://deploy-preview-3070--gestalt.netlify.app?devexample=true)
+
+## 117.4.0 (Jul 12, 2023)
+
+### Minor
+
+- Tokens: added undocumented `$color-text-disabled` & `$color-text-icon-disabled` tokens ([#3068](https://github.com/pinterest/gestalt/pull/3068)) - [Preview link](https://deploy-preview-3068--gestalt.netlify.app?devexample=true)
+
+## 117.3.7 (Jul 11, 2023)
+
+### Patch
+
+- Docs: PageHeader example fixes ([#3069](https://github.com/pinterest/gestalt/pull/3069)) - [Preview link](https://deploy-preview-3069--gestalt.netlify.app?devexample=true)
+
+## 117.3.6 (Jul 10, 2023)
+
+### Patch
+
+- Internal: Bump stylelint from 14.0.1 to 15.10.1 ([#3067](https://github.com/pinterest/gestalt/pull/3067)) - [Preview link](https://deploy-preview-3067--gestalt.netlify.app?devexample=true)
+
+## 117.3.5 (Jul 10, 2023)
+
+### Patch
+
+- Internal: Bump tough-cookie from 4.0.0 to 4.1.3 ([#3066](https://github.com/pinterest/gestalt/pull/3066)) - [Preview link](https://deploy-preview-3066--gestalt.netlify.app?devexample=true)
+
+## 117.3.4 (Jul 7, 2023)
+
+### Patch
+
+- Docs: add Component Status pages for iOS and Android ([#3064](https://github.com/pinterest/gestalt/pull/3064)) - [Preview link](https://deploy-preview-3064--gestalt.netlify.app?devexample=true)
+
+## 117.3.3 (Jul 7, 2023)
+
+### Patch
+
+- Internal: clean up component data types ([#3065](https://github.com/pinterest/gestalt/pull/3065)) - [Preview link](https://deploy-preview-3065--gestalt.netlify.app?devexample=true)
+
 ## 117.3.2 (Jul 7, 2023)
 
 ### Patch

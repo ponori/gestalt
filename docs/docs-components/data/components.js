@@ -1,5 +1,4 @@
 // @flow strict
-import { type Element } from 'react';
 import { type ComponentData } from './types.js';
 import Box from '../../graphics/building-blocks/Box.svg';
 import Column from '../../graphics/building-blocks/Column.svg';
@@ -15,7 +14,6 @@ import SheetMobile from '../../graphics/building-blocks/SheetMobile.svg';
 import Sticky from '../../graphics/building-blocks/Sticky.svg';
 import TapArea from '../../graphics/building-blocks/TapArea.svg';
 import ZIndexClasses from '../../graphics/building-blocks/ZIndexClasses.svg';
-import Accessibility from '../../graphics/foundations/accessibility.svg';
 import ActivationCard from '../../graphics/general/ActivationCard.svg';
 import Avatar from '../../graphics/general/Avatar.svg';
 import AvatarGroup from '../../graphics/general/AvatarGroup.svg';
@@ -74,66 +72,6 @@ import HookFocusVisible from '../../graphics/utilities/hook-focus-visible.svg';
 import HookReducedMotion from '../../graphics/utilities/hook-reduced-motion.svg';
 import ProviderColorScheme from '../../graphics/utilities/provider-color-scheme.svg';
 import ProviderHandlers from '../../graphics/utilities/provider-global-events-handler.svg';
-
-export type Category =
-  | 'Actions'
-  | 'Avatars'
-  | 'Building blocks'
-  | 'Controls'
-  | 'Data'
-  | 'Fields and forms'
-  | 'Foundations'
-  | 'Help and guidance'
-  | 'Indicators'
-  | 'Loading'
-  | 'Messaging'
-  | 'Navigation'
-  | 'Overlays'
-  | 'Pilot'
-  | 'Pins and imagery'
-  | 'Structure'
-  | 'Team support'
-  | 'Text'
-  | 'Utilities'
-  | null;
-
-type StatusType = 'notAvailable' | 'partial' | 'planned' | 'ready';
-
-export type AccessibleStatus = {|
-  a11yComprehension: ?StatusType,
-  a11yNavigation: ?StatusType,
-  a11yScreenreader: ?StatusType,
-  a11yVisual: ?StatusType,
-  summary: ?StatusType,
-|};
-
-type PlatformStatus = {|
-  accessible: AccessibleStatus,
-  badge: null | 'New' | 'Pilot' | 'Experimental',
-  deprecated?: boolean,
-  documentation: StatusType,
-  figma: ?StatusType,
-  figmaOnly?: boolean,
-|};
-
-export type ListItemType = {|
-  alias?: $ReadOnlyArray<string>,
-  android?: PlatformStatus,
-  category: Category,
-  description: string,
-  hasDarkBackground?: boolean,
-  ios?: PlatformStatus,
-  name: string,
-  path?: string,
-  previouslyNamed?: $ReadOnlyArray<string>,
-  status?: {|
-    ...PlatformStatus,
-    android: StatusType,
-    ios: StatusType,
-    responsive: StatusType,
-  |}, // web status
-  svg: Element<typeof Accessibility>,
-|};
 
 const componentData: $ReadOnlyArray<ComponentData> = [
   {
@@ -359,7 +297,6 @@ const componentData: $ReadOnlyArray<ComponentData> = [
         category: [],
         status: {
           documentation: 'notAvailable',
-          figmaOnly: true,
           status: 'ready',
         },
       },
@@ -818,7 +755,6 @@ const componentData: $ReadOnlyArray<ComponentData> = [
         status: {
           badge: 'Pilot',
           documentation: 'notAvailable',
-          figmaOnly: true,
           status: 'ready',
         },
       },
@@ -916,6 +852,15 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           figmaStatus: 'ready',
           responsive: 'ready',
           status: 'ready',
+          knownIssues: [
+            {
+              title: 'Line clamp truncation',
+              description:
+                'When the "lineClamp" prop is set to 1, text with long strings of characters might be truncated incorrectly.',
+              codesandboxUrl:
+                'https://codesandbox.io/s/development-mode-forked-44qkwk?file=/example.js',
+            },
+          ],
         },
       },
     },
@@ -1496,7 +1441,6 @@ const componentData: $ReadOnlyArray<ComponentData> = [
         category: [],
         status: {
           documentation: 'notAvailable',
-          figmaOnly: true,
           status: 'ready',
         },
       },
@@ -1553,6 +1497,14 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           mobileAdaptive: 'planned',
           responsive: 'ready',
           status: 'ready',
+          knownIssues: [
+            {
+              title: 'Incorrect positioning and dimensions',
+              description:
+                'Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
+              internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
+            },
+          ],
         },
       },
     },
@@ -1595,7 +1547,6 @@ const componentData: $ReadOnlyArray<ComponentData> = [
         category: [],
         status: {
           documentation: 'notAvailable',
-          figmaOnly: true,
           status: 'ready',
         },
       },
@@ -2205,6 +2156,15 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           figmaStatus: 'ready',
           responsive: 'ready',
           status: 'ready',
+          knownIssues: [
+            {
+              title: 'Line clamp truncation',
+              description:
+                'When the "lineClamp" prop is set to 1, text with long strings of characters might be truncated incorrectly',
+              codesandboxUrl:
+                'https://codesandbox.io/s/development-mode-forked-ngkj3c?file=/example.js',
+            },
+          ],
         },
       },
       android: {
