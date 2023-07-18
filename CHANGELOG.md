@@ -1,3 +1,21 @@
+## 118.0.0 (Jul 18, 2023)
+
+### Major
+
+- Button: fixes ` name` prop documentation and Flow ([#3078](https://github.com/pinterest/gestalt/pull/3078)) - [Preview link](https://deploy-preview-3078--gestalt.netlify.app?devexample=true)
+
+## 117.5.1 (Jul 17, 2023)
+
+### Patch
+
+- Docs: Page Source Links ([#3076](https://github.com/pinterest/gestalt/pull/3076)) - [Preview link](https://deploy-preview-3076--gestalt.netlify.app?devexample=true)
+
+## 117.5.0 (Jul 17, 2023)
+
+### Minor
+
+- Table: Add SortableHeaderCell End align ([#3073](https://github.com/pinterest/gestalt/pull/3073)) - [Preview link](https://deploy-preview-3073--gestalt.netlify.app?devexample=true)
+
 ## 117.4.4 (Jul 14, 2023)
 
 ### Patch
