@@ -1,3 +1,81 @@
+## 119.1.5 (Jul 25, 2023)
+
+### Patch
+
+- Docs: Q2 newsletter addition ([#3061](https://github.com/pinterest/gestalt/pull/3061)) - [Preview link](https://deploy-preview-3061--gestalt.netlify.app?devexample=true)
+
+## 119.1.4 (Jul 24, 2023)
+
+### Patch
+
+- Docs: 2023 H2 roadmap ([#3077](https://github.com/pinterest/gestalt/pull/3077)) - [Preview link](https://deploy-preview-3077--gestalt.netlify.app?devexample=true)
+
+## 119.1.3 (Jul 24, 2023)
+
+### Patch
+
+- Docs: 2023-07-21 weekly update ([#3092](https://github.com/pinterest/gestalt/pull/3092)) - [Preview link](https://deploy-preview-3092--gestalt.netlify.app?devexample=true)
+
+## 119.1.2 (Jul 21, 2023)
+
+### Patch
+
+- Docs: fix in broken TextField page ([#3090](https://github.com/pinterest/gestalt/pull/3090)) - [Preview link](https://deploy-preview-3090--gestalt.netlify.app?devexample=true)
+
+## 119.1.1 (Jul 21, 2023)
+
+### Patch
+
+- DateRange: Fix example, add snapshot in unit test, fix sandboxes ([#3089](https://github.com/pinterest/gestalt/pull/3089)) - [Preview link](https://deploy-preview-3089--gestalt.netlify.app?devexample=true)
+
+## 119.1.0 (Jul 21, 2023)
+
+### Minor
+
+- DateRange: new component ([#3001](https://github.com/pinterest/gestalt/pull/3001)) - [Preview link](https://deploy-preview-3001--gestalt.netlify.app?devexample=true)
+
+## 119.0.5 (Jul 21, 2023)
+
+### Patch
+
+- Internal: revert 'skip-title-checker' test PR changes ([#3088](https://github.com/pinterest/gestalt/pull/3088)) - [Preview link](https://deploy-preview-3088--gestalt.netlify.app?devexample=true)
+
+## 119.0.4 (Jul 21, 2023)
+
+### Patch
+
+- Internal: test 'skip-title-checker' 2 ([#3087](https://github.com/pinterest/gestalt/pull/3087)) - [Preview link](https://deploy-preview-3087--gestalt.netlify.app?devexample=true)
+
+## 119.0.3 (Jul 20, 2023)
+
+### Patch
+
+- Internal: test skip-title-checker tag in github workflow ([#3086](https://github.com/pinterest/gestalt/pull/3086)) - [Preview link](https://deploy-preview-3086--gestalt.netlify.app?devexample=true)
+
+## 119.0.2 (Jul 20, 2023)
+
+### Patch
+
+- PopoverEducational: removing flex null spacing ([#3081](https://github.com/pinterest/gestalt/pull/3081)) - [Preview link](https://deploy-preview-3081--gestalt.netlify.app?devexample=true)
+
+## 119.0.1 (Jul 19, 2023)
+
+### Patch
+
+- Docs: Added Android Badge docs ([#3083](https://github.com/pinterest/gestalt/pull/3083)) - [Preview link](https://deploy-preview-3083--gestalt.netlify.app?devexample=true)
+
+## 119.0.0 (Jul 19, 2023)
+
+### Major
+
+- Popover: Deprecating showcaret and color=blue ([#3079](https://github.com/pinterest/gestalt/pull/3079)) - [Preview link](https://deploy-preview-3079--gestalt.netlify.app?devexample=true)
+
+## 118.0.1 (Jul 18, 2023)
+
+### Patch
+
+- Internal: Bump word-wrap from 1.2.3 to 1.2.4 ([#3080](https://github.com/pinterest/gestalt/pull/3080)) - [Preview link](https://deploy-preview-3080--gestalt.netlify.app?devexample=true)
+
 ## 118.0.0 (Jul 18, 2023)
 
 ### Major
